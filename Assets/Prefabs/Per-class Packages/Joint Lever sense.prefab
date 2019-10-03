@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 80f76946b335edc4a9af693867086fd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -67,6 +67,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -154,7 +155,6 @@ GameObject:
   - component: {fileID: 1198200428}
   - component: {fileID: 1198200427}
   - component: {fileID: 1198200426}
-  - component: {fileID: 1198200425}
   m_Layer: 0
   m_Name: Latch Left
   m_TagString: Untagged
@@ -209,6 +209,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -234,20 +235,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1198200425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1198200423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13287654be64b9244b52fdc62c4a85b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 8722897905084204559, guid: b7202f64b39e14f478b1f257e796e720, type: 3}
-  instantiationLocation: {fileID: 0}
 --- !u!1 &1704093126
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +247,6 @@ GameObject:
   - component: {fileID: 1704093131}
   - component: {fileID: 1704093130}
   - component: {fileID: 1704093129}
-  - component: {fileID: 1704093128}
   m_Layer: 0
   m_Name: Latch Right
   m_TagString: Untagged
@@ -315,6 +301,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -340,20 +327,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1704093128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704093126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13287654be64b9244b52fdc62c4a85b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 2777596459888370687, guid: 51f1118ce3d850c459753828909923c7, type: 3}
-  instantiationLocation: {fileID: 0}
 --- !u!1 &1740435615
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +341,7 @@ GameObject:
   - component: {fileID: 1740435620}
   - component: {fileID: 1740435619}
   - component: {fileID: 1740435618}
-  - component: {fileID: 1740435617}
+  - component: {fileID: 3903867286284800650}
   m_Layer: 0
   m_Name: Lever
   m_TagString: Grabbable
@@ -415,7 +388,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9340212e271abfe429f2b86410ef5de2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -423,6 +396,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -499,7 +473,7 @@ HingeJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &1740435617
+--- !u!114 &3903867286284800650
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -508,6 +482,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1740435615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb32c4c66b35d3b42a4b3fb19dcfc60c, type: 3}
+  m_Script: {fileID: 11500000, guid: ae57f0d4c470db64eb23ad2f7792cdf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

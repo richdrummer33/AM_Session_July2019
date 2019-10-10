@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/UtilityArDemo.unity
-    guid: 7ce5542e63ece39489a41e7d1c6e625e
+    path: Assets/Scenes/ArFoundationMirror.unity
+    guid: 2e46e370f8314514082fc0ef91380b8b
   m_configObjects: {}
